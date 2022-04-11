@@ -222,7 +222,6 @@ class Spam extends StatelessWidget {
           ),
         ],
       ),
-      drawer: DrawerNav(),
       body: ListView.builder(
         itemBuilder: (context, index) {
           return Card(
